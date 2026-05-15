@@ -14,18 +14,16 @@ Accurate electricity demand forecasting is critical for grid stability. Overesti
 ## 🗂️ Project Structure
 
 ```
+
 NeuralLoad-BD/
-├── config.py               # All paths, constants, and hyperparameters
-├── data_loader.py          # Load, clean, and merge all 3 datasets
-├── feature_engineering.py  # Lag/rolling/calendar features + train-test split
-├── model.py                # Train, evaluate, and visualize models
-├── main.py                 # End-to-end orchestration (convert to .ipynb)
-│
-├── REPORT.md               # Methodology, feature rationale, results analysis
-│
-├── PGCB_date_power_demand.xlsx   # Hourly grid demand/generation data
-├── weather_data.xlsx             # Hourly weather data (Open-Meteo)
-└── economic_full_1.csv           # Annual macroeconomic indicators (World Bank)
+├── config.py / .ipynb              # Constants & hyperparams
+├── data_loader.py / .ipynb         # Load, clean, merge, EDA plots
+├── feature_engineering.py / .ipynb # Features + train/test split
+├── model.py / .ipynb               # Training + evaluation + plots
+├── main.py / .ipynb                # End-to-end pipeline (fully executed)
+├── README.md                       # Project overview + results
+└── REPORT.md                       # Methodology report (Deliverable B)
+
 ```
 
 
