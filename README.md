@@ -14,7 +14,7 @@ Accurate electricity demand forecasting is critical for grid stability. Overesti
 ## 🗂️ Project Structure
 
 ```
-iitgai/
+NeuralLoad-BD/
 ├── config.py               # All paths, constants, and hyperparameters
 ├── data_loader.py          # Load, clean, and merge all 3 datasets
 ├── feature_engineering.py  # Lag/rolling/calendar features + train-test split
