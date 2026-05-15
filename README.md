@@ -28,9 +28,6 @@ NeuralLoad-BD/
 └── economic_full_1.csv           # Annual macroeconomic indicators (World Bank)
 ```
 
-> **To run:** Convert `main.py` to a Jupyter Notebook (VS Code: right-click → *Export to Jupyter Notebook*, or use `jupytext`). All `# %%` markers become individual cells.
-
----
 
 ## 🔬 Approach & Methodology
 
@@ -126,6 +123,3 @@ The following columns are excluded from features — they represent **real-time 
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm openpyxl
 ```
 
----
-
-*IITG.ai — Predictive Paradox Recruitment Task*
